@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix - Progeto U2_w2</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+  </head>
+
+  <body class="bg-dark">
+    <header class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col">
+          <!--STEFANO NON GUARDARE LA NAV ! :) ho avuto prblemi ad inserire il contenuto di dx nella nav, ci ho perso un sacco di tempo così ho fatto sta schifezza-->
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img
+                src="./assets/images/netflix_logo.png"
+                alt="logo netflix"
+                class="wLogo me-2"
+              />
+              <button
+                class="navbar-toggler btn btn-info"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" href="#">TV Shows</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-white active" href="#">
+                      Recently Added
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" href="#">My List</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col text-white text-end me-4">
+          <a href="" class="nav-link d-inline text-white active"
+            ><img
+              src="./assets/icone/search.svg"
+              alt="icona campana"
+              class="icona"
+            />
+          </a>
+          <a class="nav-link active text-white d-inline ms-3" href="">KIDS</a>
+          <a href="" class="nav-link d-inline text-white active ms-3"
+            ><img
+              src="./assets/icone/bell (1).svg"
+              alt="icona campana"
+              class="icona"
+            />
+          </a>
+          <a
+            href=""
+            class="nav-link d-inline text-white active ms-3 dropdown-toggle"
+            ><img
+              src="./assets/icone/iconaNavNetflix.jpg"
+              alt="icona campana"
+              class="icona last"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="row align-items-center mx-2">
+        <div class="col-5 text-white">
+          <div class="row align-items-center w-51">
+            <h1 class="col-4 pe-0">TV Shows</h1>
+            <div
+              class="col-8 border p-1 bg-black d-inline-block w-50 text-center"
+            >
+              <!--PURTROPPO QUA, DOPO DIVERSE PROVE, NON SONO RIUSCITO A MODIFICARE LA WIDTH DEL DIV SE NON INLINE, così piuttosto
+                ho lasciato il div + grande del suo contenuto ...-->
+              <a
+                class="nav-link dropdown-toggle text-white active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genres
+              </a>
+              <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="#">Horror</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Commedy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Thriller</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-7 text-white text-end">
+          <a href="" class="border px-2 py-1"
+            ><img
+              class="icona pb-1"
+              src="./assets/icone/text-left.svg"
+              alt="icona"
+          /></a>
+          <a href="" class="border px-2 py-1"
+            ><img
+              class="icona pb-1"
+              src="./assets/icone/grid-fill.svg"
+              alt="icona"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <main class="text-white mx-4 pb-5">
+      <section class="container-fluid mt-4">
+        <div class="row text-start g-1">
+          <h3>Trending Now</h3>
+          <img
+            src="./assets/media/media0.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media1.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media2.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media3.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media4.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media5.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+        </div>
+      </section>
+      <section class="container-fluid mt-4">
+        <div class="row text-start g-1">
+          <h3>Watch It Again</h3>
+          <img
+            src="./assets/media/media7.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media8.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media9.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media10.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media11.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media12.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+        </div>
+      </section>
+      <section class="container-fluid mt-4">
+        <div class="row text-start g-1">
+          <h3>New Releases</h3>
+          <img
+            src="./assets/media/media13.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media14.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media15.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media16.webp"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media17.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+          <img
+            src="./assets/media/media18.jpg"
+            alt="anteprima film"
+            class="col-2"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="container flex-row text-secondary my-5">
+      <img
+        class="col ms-4 mb-3 icona"
+        src="./assets/icone/facebook.svg"
+        alt="facebook"
+      />
+      <img
+        class="col ms-4 mb-3 icona"
+        src="./assets/icone/instagram.svg"
+        alt="facebook"
+      />
+      <img
+        class="col ms-4 mb-3 icona"
+        src="./assets/icone/twitter-x.svg"
+        alt="facebook"
+      />
+      <img
+        class="col ms-4 mb-3 icona"
+        src="./assets/icone/youtube.svg"
+        alt="facebook"
+      />
+      <div class="row flex-row justify-content-between">
+        <div class="col-2 flex-column mx-4">
+          <p class="col">Audio and Subtitles</p>
+          <p class="col">Media Center</p>
+          <p class="col">Privacy</p>
+          <p class="col">Contact Us</p>
+          <div class="col"><p class="border p-2 my-4">Service Code</p></div>
+        </div>
+        <div class="col-2 flex-column mx-4">
+          <p class="col">Audio Description</p>
+          <p class="col">Investor Relations</p>
+          <p class="col">Legal Notices</p>
+        </div>
+        <div class="col-2 flex-column mx-4">
+          <p class="col">Help Center</p>
+          <p class="col">Jobs</p>
+          <p class="col">Cookie Preferences</p>
+        </div>
+        <div class="col-2 flex-column mx-4">
+          <p class="col">Gift Cards</p>
+          <p class="col">Terms of Use</p>
+          <p class="col">Corporate Informations</p>
+        </div>
+      </div>
+      <div class="row ms-4" id="anno"></div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let annoCorrente = new Date().getFullYear();
+      let eccolo = (document.getElementById("anno").textContent =
+        "© 1997-" + annoCorrente + " Netflix, Inc. {i-0d00fcda2fdf9c0de}");
+    </script>
+  </body>
+</html>
